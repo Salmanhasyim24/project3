@@ -29,7 +29,7 @@
                 <div class="menu-title">About Menu</div>
             </a>
             <ul>
-                <li> <a href="#"><i class="bx bx-right-arrow-alt"></i>All About</a>
+                <li> <a href="{{ route('about') }}"><i class="bx bx-right-arrow-alt"></i>All About</a>
                 </li>
             </ul>
         </li>
@@ -51,7 +51,7 @@
                 <div class="menu-title"> Blog Category Menu</div>
             </a>
             <ul>
-                <li> <a href="#"><i class="bx bx-right-arrow-alt"></i>All Category</a>
+                <li> <a href="{{ route('category') }}"><i class="bx bx-right-arrow-alt"></i>All Category</a>
                 </li>
                 <li> <a href="#"><i class="bx bx-right-arrow-alt"></i>All Blog</a>
                 </li>
@@ -64,9 +64,11 @@
                 <div class="menu-title">Settings Menu</div>
             </a>
             <ul>
-                <li> <a href="#"><i class="bx bx-right-arrow-alt"></i>Footer</a>
+                <li> <a href="{{ route('service') }}"><i class="bx bx-right-arrow-alt"></i>Service</a>
                 </li>
-                <li> <a href="#"><i class="bx bx-right-arrow-alt"></i>Contact</a>
+                <li> <a href="{{ route('feature') }}"><i class="bx bx-right-arrow-alt"></i>Feature</a>
+                </li>
+                <li> <a href="{{ route('portfolio') }}"><i class="bx bx-right-arrow-alt"></i>Portfolio</a>
                 </li>
             </ul>
         </li>
